@@ -7,6 +7,7 @@ VALUES
         8
     );
 
+
 INSERT INTO
     funny_jokes (id, joke_text, rating)
 VALUES
@@ -25,6 +26,7 @@ VALUES
         'Why don’t skeletons fight each other? They don’t have the guts.',
         6
     );
+
 
 INSERT INTO
     funny_jokes (id, joke_text, rating)

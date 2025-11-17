@@ -22,6 +22,7 @@ WHERE
 ORDER BY
     salary_sek_month DESC;
 
+
 -- OR operator
 SELECT
     COUNT(*)
@@ -30,6 +31,7 @@ FROM
 WHERE
     experience_level = 'Senior level'
     or experience_level = 'Expert level';
+
 
 -- NOT operator
 SELECT

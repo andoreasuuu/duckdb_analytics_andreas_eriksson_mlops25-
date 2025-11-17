@@ -3,6 +3,7 @@ SELECT
 FROM
     data_jobs;
 
+
 SELECT
     COUNT(*)
 FROM
@@ -10,11 +11,13 @@ FROM
 WHERE
     salary_in_usd < 50000;
 
+
 -- find entry level jobs
 SELECT DISTINCT
     experience_level
 FROM
     data_jobs;
+
 
 SELECT
     *
@@ -22,6 +25,7 @@ FROM
     data_jobs
 WHERE
     experience_level = 'EN';
+
 
 -- find median salary for entry level jobs
 SELECT
@@ -31,6 +35,7 @@ FROM
     data_jobs
 WHERE
     experience_level = 'EN';
+
 
 -- find median salary for mid level jobs
 SELECT

@@ -6,6 +6,7 @@ FROM
 WHERE
     company_size IN ('M', 'S');
 
+
 -- FILTER clause
 SELECT
     COUNT(*) AS total_jobs,

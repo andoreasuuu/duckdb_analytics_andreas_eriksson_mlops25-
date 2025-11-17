@@ -1,0 +1,2 @@
+ALTER TABLE database.duckdb
+Add COLUMN learnt BOOLEAN DEFAULT FALSE;

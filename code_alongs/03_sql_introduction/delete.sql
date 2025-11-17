@@ -6,6 +6,7 @@ FROM
 WHERE
     < 5;
 
+
 -- this one for deleting
 DELETE FROM funny_jokes
 WHERE
